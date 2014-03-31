@@ -33,7 +33,7 @@ h1, h2, h3, p, .contact-links {
 header {
     position: relative;
     padding: 40px 0px;
-    border-top: 3px solid #2295CE;
+    border-top: 4px solid #2295CE;
 }
     header:before {
         content: "";
@@ -41,7 +41,7 @@ header {
         top: -3px;
         left: 0px;
         right: 0px;
-        height: 3px;
+        height: 4px;
         background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(168, 207, 229)), to(rgb(34, 149, 206)));
         background-image: -webkit-linear-gradient(left, rgb(168, 207, 229), rgb(34, 149, 206));
         background-image: -moz-linear-gradient(left, rgb(168, 207, 229), rgb(34, 149, 206));
@@ -69,6 +69,7 @@ main {
     h2 { font-size: 20px; }
 
     h3 {
+        width: 75%;
         max-width: 420px;
         padding: 9px 15px;
         background-color: #4AA6D4;
