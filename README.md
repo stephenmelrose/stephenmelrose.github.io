@@ -1,4 +1,5 @@
-stephenmelrose.github.io
-========================
+# stephenmelrose.co.uk
 
-http://stephenmelrose.co.uk/ website.
+This is the source code for my http://stephenmelrose.co.uk/ website.
+
+Despite being open sourced, all code and content remain copyright of Stephen Melrose.
