@@ -39,21 +39,21 @@ h1, h2, h3, p, ul {
 }
 
 a {
-    color: #1B78A6;
+    color: #009fb2;
     text-decoration: none;
     transition: color .2s, text-decoration .2s;
     -moz-transition: color .2s, text-decoration .2s;
     -webkit-transition: color .2s, text-decoration .2s;
 }
     a:hover {
-        color: #3DA5D9;
+        color: #72C9D4;
     }
 
 header {
     position: relative;
     padding: 40px 0px;
     border-top: 4px solid #2295CE;
-	background: transparent url(../images/grid.png) repeat;
+    background: transparent url(../images/grid.png) repeat;
 }
     header:before {
         content: "";
@@ -62,10 +62,10 @@ header {
         left: 0px;
         right: 0px;
         height: 4px;
-        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(168, 207, 229)), to(rgb(34, 149, 206)));
-        background-image: -webkit-linear-gradient(left, rgb(168, 207, 229), rgb(34, 149, 206));
-        background-image: -moz-linear-gradient(left, rgb(168, 207, 229), rgb(34, 149, 206));
-        background-image: -o-linear-gradient(left, rgb(168, 207, 229), rgb(34, 149, 206));
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#a3dce4), to(#006b87));
+        background-image: -webkit-linear-gradient(left, #a3dce4, #006b87);
+        background-image: -moz-linear-gradient(left, #a3dce4, #006b87);
+        background-image: -o-linear-gradient(left, #a3dce4, #006b87);
     }
 
     .logo {
@@ -87,9 +87,9 @@ section {
     position: relative;
     z-index: 1;
     padding: 40px 0px 36px 0px;
-    background-color: #EBF2F7;
-	border-top: 1px solid #c9deee;
-	border-bottom: 1px solid #c9deee;
+    background-color: #E6F5F7;
+    border-top: 1px solid #AEE3EB;
+    border-bottom: 1px solid #AEE3EB;
 }
     h2 {
         max-width: 600px;
@@ -102,7 +102,7 @@ section {
         max-width: 420px;
         padding: 9px 15px;
         color: #fff;
-        background-color: #4AA6D4;
+        background-color: #1FAEBF;
         border-radius:15px;
         font-size: 24px;
         font-weight: 700;
@@ -124,7 +124,7 @@ section {
         }
         ul li:last-child { margin-right: 0px; }
 
-        ul a {  color: #acb2b7; }
+        ul a {  color: #96ABB0; }
             ul a.github:hover {  color: #333; }
             ul a.linkedin:hover {  color: #1b86bd; }
             ul a.twitter:hover {  color: #55acee; }
